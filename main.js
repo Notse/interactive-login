@@ -129,7 +129,7 @@ submit.addEventListener("click", (e) => {
     mouth.classList.add("folder-smile");
     userName.value = passWord.value = "";
   } else {
-    // notification("Access Denied", "Incorrect Username or Password  ");
+    // notification("Access Denied", "Incorrect Username or Password");
     MessageBox("Incorrect inputs !!!!");
   }
 });
