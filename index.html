@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Folder Login | Nikhil Notse</title>
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- Folder Login Form -->
+      <section class="folder_login">
+        <div class="login_form-container">
+          <header class="login_form-header">
+            <h3 class="txt-center text_heading">Login</h3>
+            <div class="message-box"><span class="msg-text"></span></div>
+            <div id="untitled-folder" class="untitled_folder">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 450.39 332.7"
+              >
+                <title>UntitledFolder</title>
+                <g
+                  id="a7f765f4-5c41-42d9-a0ed-d28e422e54a7"
+                  data-name="Layer 2"
+                >
+                  <g
+                    id="f91488f7-f731-42b8-b649-2dc98eebd7a5"
+                    data-name="Layer 1"
+                  >
+                    <path
+                      d="M243.83,56.68H404A46.35,46.35,0,0,1,450.39,103V286.35A46.35,46.35,0,0,1,404,332.7H46.35A46.35,46.35,0,0,1,0,286.35V103a45.12,45.12,0,0,1,.37-5.74V39.7A39.69,39.69,0,0,1,40.07,0h143.3"
+                      style="fill: #edcb7c"
+                    />
+                  </g>
+                </g>
+              </svg>
+              <div class="eyes">
+                <div class="pupil"></div>
+              </div>
+              <div class="eyes">
+                <div class="pupil"></div>
+              </div>
+              <div class="mouth"></div>
+            </div>
+          </header>
+          <div class="login_form-fields">
+            <form action="">
+              <label for="username" class="text-label">username</label>
+              <input
+                type="text"
+                name=""
+                id="username"
+                class="text-input"
+                placeholder="username"
+                required
+              />
+              <div class="password-container">
+                <label for="password" class="text-label">password</label>
+                <i class="fas fa-eye showpassword"></i>
+                <input
+                  type="password"
+                  name=""
+                  id="password"
+                  class="text-input"
+                  placeholder="password"
+                  required
+                />
+              </div>
+              <input
+                type="submit"
+                id="submit"
+                class="btn sign-in"
+                value="Log In"
+              />
+            </form>
+          </div>
+        </div>
+        <!-- notification -->
+        <div class="notify">
+          <section class="icon-box">
+            <img
+              class="touch-icon"
+              src="https://i.ibb.co/wJv8wtJ/touch-icon-png.png"
+              hidden
+            />
+            <i class="error-icon fas fa-exclamation-triangle"></i>
+            <div class="mouse-icon">
+              <div class="scroller"></div>
+            </div>
+          </section>
+          <div class="primary-text">Create a new Folder</div>
+          <div class="secondary-text">Right click and create a new folder</div>
+          <div class="close-btn fas fa-times"></div>
+        </div>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
